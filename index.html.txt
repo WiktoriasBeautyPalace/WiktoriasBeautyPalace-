@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wiktoria's Beauty Palace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf2;
+      color: #4b4b4b;
+    }
+    header {
+      background-color: #f5f0e6;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #d6b36a;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #a88438;
+    }
+    section {
+      padding: 2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    h2 {
+      color: #a88438;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "•";
+      color: #d6b36a;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .info {
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      margin-right: 1rem;
+      text-decoration: none;
+      border-radius: 30px;
+      background-color: #d6b36a;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .buttons a:hover {
+      background-color: #a88438;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wiktoria's Beauty Palace</h1>
+    <p>Willkommen in deinem Kosmetikstudio für Entspannung & Schönheit</p>
+  </header>
+
+  <section>
+    <h2>Leistungen</h2>
+    <ul>
+      <li>UV-Wimpernverlängerung</li>
+      <li>Microneedling & BB Glow</li>
+      <li>Gesichtsbehandlungen</li>
+      <li>Wimpernlifting</li>
+      <li>Augenbrauenlaminierung</li>
+      <li>Augenbrauenfärben</li>
+      <li>Augenbrauen mit Henna</li>
+    </ul>
+
+    <h2>Öffnungszeiten</h2>
+    <div class="info">
+      <p><strong>Montag, Dienstag & Donnerstag:</strong> 08:00 – 18:00 Uhr</p>
+      <p><strong>Mittwoch & Freitag:</strong> 08:00 – 16:00 Uhr</p>
+      <p>Termine nach Vereinbarung</p>
+    </div>
+
+    <h2>Kontakt</h2>
+    <div class="info">
+      <p><strong>Adresse:</strong> Stöckmannstraße 86, 46045 Oberhausen</p>
+      <p><strong>Telefon:</strong> +49 179 4198064</p>
+      <p><strong>Instagram:</strong> @wiktoria_orenziak</p>
+    </div>
+
+    <div class="buttons">
+      <a href="tel:+491794198064">Jetzt anrufen</a>
+      <a href="https://www.instagram.com/wiktoria_orenziak" target="_blank">Instagram besuchen</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Wiktoria's Beauty Palace
+  </footer>
+</body>
+</html>
